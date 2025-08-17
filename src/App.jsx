@@ -38,10 +38,29 @@ import Header from "./Header/header"
 function App() {
   return (
     <div>
-      <Header></Header>
-      {/* Hello World! */}
-      react course :)
-      <Footer></Footer>
+      <div className="nav-background">
+        <div className="nav-container">
+          <header className='nav-header'>
+            <h1><a href="#" className='nav-logo'>SabzLearn</a></h1>
+          </header>
+          <nav>
+            <ul className='nav-ul'>
+              <li>
+                <a href="#" className='nav-link active-link'>Home</a>
+              </li>
+              <li>
+                <a href="#" className='nav-link'>News</a>
+              </li>
+              <li>
+                <a href="#" className='nav-link'>Contact Us</a>
+              </li>
+              <li>
+                <a href="#" className='nav-link'>About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
   )
 }
