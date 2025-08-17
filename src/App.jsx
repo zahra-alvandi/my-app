@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import Footer from "./Footer/Footer"
 import './App.css'
-import Footer from "./Footer/Footer"
-import Header from "./Header/header"
-
+import Header from './Header/header'
+import Article from './Article/article'
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -36,32 +36,11 @@ import Header from "./Header/header"
 // }
 
 function App() {
-  return (
-    <div>
-      <div className="nav-background">
-        <div className="nav-container">
-          <header className='nav-header'>
-            <h1><a href="#" className='nav-logo'>SabzLearn</a></h1>
-          </header>
-          <nav>
-            <ul className='nav-ul'>
-              <li>
-                <a href="#" className='nav-link active-link'>Home</a>
-              </li>
-              <li>
-                <a href="#" className='nav-link'>News</a>
-              </li>
-              <li>
-                <a href="#" className='nav-link'>Contact Us</a>
-              </li>
-              <li>
-                <a href="#" className='nav-link'>About Us</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-  )
+ return (
+  <div>
+    <Header></Header>
+    <Article></Article>
+  </div>
+ )
 }
 export default App
