@@ -1,4 +1,4 @@
-import Media from "./Meddia"
+import Media from "../Media/Meddia"
 
 function Footer() {
     return (
