@@ -16,7 +16,7 @@ function User(props) {
     return(
         <div>
             {/* <h1>Zahra</h1> */}
-            <h1>{props.name}</h1>
+            <h1>{props.age} - {props.name}</h1>
         </div>
     )
 }

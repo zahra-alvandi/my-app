@@ -42,10 +42,10 @@ function App() {
     {/* <Header></Header>
     <Article></Article>
     <hr />   */}
-    <User name="mohammad"></User>
-    <User name="zahra"></User>
-    <User name="fatemeh"></User>
-    <User name="ali"></User>
+    <User age= "28" name="mohammad"></User>
+    <User age= "21" name="zahra"></User>
+    <User age= "21" name="fatemeh"></User>
+    <User age= "23" name="ali"></User>
   </div>
  )
 }
