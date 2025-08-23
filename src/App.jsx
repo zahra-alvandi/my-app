@@ -5,6 +5,7 @@
 import './App.css'
 import Header from './Header/header'
 import Article from './Article/article'
+import User from './User/user'
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -40,7 +41,10 @@ function App() {
   <div>
     <Header></Header>
     <Article></Article>
+    <hr />  
+    <User></User>
   </div>
  )
 }
+
 export default App
