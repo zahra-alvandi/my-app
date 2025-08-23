@@ -39,10 +39,13 @@ import User from './User/user'
 function App() {
  return (
   <div>
-    <Header></Header>
+    {/* <Header></Header>
     <Article></Article>
-    <hr />  
-    <User></User>
+    <hr />   */}
+    <User name="mohammad"></User>
+    <User name="zahra"></User>
+    <User name="fatemeh"></User>
+    <User name="ali"></User>
   </div>
  )
 }
